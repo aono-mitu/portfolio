@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(images/bg.png);
+    font-family: 'TsukuBRdGothic-Regular', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+.header-logo {
+    padding-top: 10px;
+}
+.header-logo img {
+    max-width: 90%;
+}
+
+.nav-main {
+    display: flex;
+    list-style: none;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.nav-main li {
+    margin-left: 30px;
+}
+.nav-main li a:hover {
+    color: snow;
+}
+
+.home-content img {
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 4%;
+    height: 450px;
+}
+.info-menu {
+    margin-top: 45px;
+    margin-left: 30px;
+    margin-bottom: 65px;
+}
+.shop-info {
+    padding-right: 10px;
+}
+.page-footer {
+    width: 101%;
+    background-color: #a5bfac;
+    height: 130px;
+}
+.nav-footer {
+    list-style: none;
+    margin-bottom: 30px;
+    text-align: right;
+    margin-right: 80px;
+}
+.nav-footer li {
+    padding-bottom: 10px;
+}

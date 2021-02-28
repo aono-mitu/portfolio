@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(images/bg.png);
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+.header-logo {
+    padding-top: 10px;
+    margin-top: 8px;
+}
+.header-logo img {
+    max-width: 90%;
+}
+
+.nav-main {
+    display: flex;
+    list-style: none;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.nav-main li {
+    margin-left: 30px;
+}
+.nav-main li a:hover {
+    color: snow;
+}
+.news {
+    margin-left: 65px;
+}
+.news p {
+    margin-bottom: -23px;
+}
+.repost {
+    position: relative;
+    border-bottom: solid 0.2em green;
+    margin-bottom: 10px;
+}
+.side-post {
+    display: flex;
+    margin-bottom: -10px;
+}
+.post-logo {
+    width: 20px;
+    height: 20px;  
+}
+.side-title {
+    position: relative;
+    bottom: 17px;
+    padding-left: 7px;
+}
+.all-wrapper {
+    display: flex;
+    width: 1080px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.main-content {
+    width: 750px;
+    height: 203px;
+    background-color: white;
+    margin-left: 65px;
+    display: block;
+    margin-bottom: 35px;
+}
+article {
+    display: flex;  
+}
+.article-img {
+    position: relative;
+    top: 28px;
+    left: 28px;
+}
+.article-content {
+    margin-left: 50px;
+}
+.article-title {
+    font-size: 21px;
+}
+.time {
+    display: flex;
+}
+.time-logo {
+    width: 20px;
+    height: 20px;
+}
+.nitiji {
+    float: right;
+    position: relative;
+    bottom: 18px;
+}
+.comment {
+    margin-top: -25px;
+}
+aside {
+    width: 25%;
+    float: right;
+    margin-right: 60px;
+}
+.side-tag {
+    display: flex;
+    flex-wrap: wrap;
+    width: 180px;
+}
+.side-tag p {
+    border-radius: 15%;
+    border: solid 1px green;
+    color: white;
+    background-color: green;
+    padding: 3px;
+    display: block;
+    margin-right: 5px;
+}
+.page-footer {
+    width: 101%;
+    background-color: #a5bfac;
+    height: 130px;
+    margin-top: 150px;
+}
+.nav-footer {
+    list-style: none;
+    margin-bottom: 30px;
+    text-align: right;
+    margin-right: 80px;
+}
+.nav-footer li {
+    padding-bottom: 10px;
+    font-family: 'TsukuBRdGothic-Regular', sans-serif;
+}

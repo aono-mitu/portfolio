@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(images/bg.png);
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+.header-logo {
+    padding-top: 10px;
+    margin-top: 8px;
+}
+.header-logo img {
+    max-width: 90%;
+}
+
+.nav-main {
+    display: flex;
+    list-style: none;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.nav-main li {
+    margin-left: 30px;
+}
+.nav-main li a:hover {
+    color: snow;
+}
+.all-wrapper {
+    display: flex;
+    width: 1080px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.news-wrapper {
+    width: 800px;
+}
+.tags {
+    display: flex;
+    margin-top: 25px;
+}
+.catetag {
+    border: solid 1px navy;
+    background-color: navy;
+    color: white;
+    border-radius: 12%;
+} 
+.time-logo {
+    width: 20px;
+    height: 20px;
+    margin-top: 17px;
+    padding-left: 10px;
+}
+
+aside {
+    float: right;
+}
+.side-var {
+    margin-top: 70px;
+}
+.repost {
+    position: relative;
+    bottom: 57px;
+    border-bottom: solid 0.2em green;
+    margin-bottom: -42px;
+
+}
+.side-post {
+    display: flex;
+    margin-bottom: -10px;
+}
+.post-logo {
+    width: 20px;
+    height: 20px;  
+}
+.side-title {
+    position: relative;
+    bottom: 17px;
+    padding-left: 7px;
+}
+.post-title {
+    font-size: 19px;
+    margin-top: -12px;
+}
+.main-img {
+    width: 410px;
+    height: 265px;
+    margin-left: 11%;
+}
+article {
+    margin-left: 14%;
+}
+.blog-title {
+    font-size: 21px;
+    border-bottom: solid 8px green;
+}
+.sub-title {
+    font-size: 21px;
+    margin-top: 70px;
+}
+.category {
+    margin-top: 45px;
+}
+.side-tag {
+    display: flex;
+    flex-wrap: wrap;
+    width: 180px;
+}
+.side-tag p {
+    border-radius: 15%;
+    border: solid 1px green;
+    color: white;
+    background-color: green;
+    padding: 3px;
+    display: block;
+    margin-right: 5px;
+}
+.page-footer {
+    width: 101%;
+    background-color: #a5bfac;
+    height: 130px;
+    margin-top: 150px;
+}
+.nav-footer {
+    list-style: none;
+    margin-bottom: 30px;
+    text-align: right;
+    margin-right: 80px;
+}
+.nav-footer li {
+    padding-bottom: 10px;
+    font-family: 'TsukuBRdGothic-Regular', sans-serif;
+}
